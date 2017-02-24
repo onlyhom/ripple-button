@@ -1,0 +1,23 @@
+@charset 'utf-8';
+.ripple{
+	position: absolute;
+	display: block;
+	background: white;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	animation: ripple 1.1s;
+	transform:scale(100);
+	opacity: 0; 
+}
+
+@keyframes ripple{
+	from{
+		transform:scale(0);
+		opacity: 0.5; 
+	}
+	to{
+		transform:scale(100);
+		opacity: 0; 
+	}
+}
