@@ -1,8 +1,9 @@
-# GoogleRippleButton    
+# rippleButton.js    
 
-谷歌水波纹按钮插件
-制作了两个版本:
-JQuery版本和 原生js版本
+模拟谷歌水波纹按钮效果插件
+提供两个版本:
+- 原生js版 不依赖任何库
+- JQuery版 使用更轻巧  
 
 ##Demo
 
