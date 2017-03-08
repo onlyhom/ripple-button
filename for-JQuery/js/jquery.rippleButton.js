@@ -30,14 +30,15 @@
 						'position': 'absolute',
 						'left': x-2,
 						'top' : y-2,
-						'background': 'white',
+						'background': '#e1e0e4',
 						'width': '4px',
 						'height': '4px',
 						'border-radius': '50%',
 						'transform':'scale(0)',
 						'opacity' : option.alpha,
 						'transition-property': 'all',
-						'transition-duration' : option.speed
+						'transition-duration' : option.speed,
+						'pointer-events': 'none'
 					});
 
 					me.append(ripple);
