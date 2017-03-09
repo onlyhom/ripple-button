@@ -53,6 +53,7 @@ window.RippleButton = (function() {
 						ripple.style.opacity = config.alpha;
 						ripple.style.transitionProperty = 'all';
 						ripple.style.transitionDuration = config.speed;
+						ripple.style.pointerEvents = 'none';
 
 						_this.triggers[i].appendChild(ripple);
 
