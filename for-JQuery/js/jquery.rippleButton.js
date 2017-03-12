@@ -5,7 +5,7 @@
 	        var option = {
 		        alpha: 0.5,
 		        speed: 1.1,
-		        callback: function(){}
+		        transitionEnd: function(){}
 	        }
 	        $.extend(option, init);
 
@@ -52,7 +52,7 @@
 
 					ripple.on('transitionend',function(){
 						ripple.remove();
-						option.callback();
+						option.transitionEnd();
 					});
 				});
 			});

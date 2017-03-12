@@ -30,7 +30,7 @@
     var ripple = new RippleButton('.btn',{
         alpha: '0.5',
         speed: '1.1s',
-        callback:function(){ //transition End
+        transitionEnd:function(){ //transition End
             console.log('finished');
         }
     });
@@ -61,7 +61,7 @@
     $('.btn').rippleButton({
         alpha: '0.5',
         speed: '1.1s',
-        callback:function(){
+        transitionEnd:function(){
             console.log('finished');
         }
     });
@@ -74,7 +74,7 @@
 | ------ |------| -----| -----|
 | alpha | 0.5s | string | The transparency alpha of the ripple.|
 | speed | 1.1s | string | The duration which are given in milliseconds of effect.|
-| callback|function(){}| function| Callback after transition end.|
+| transitionEnd|function(){}| function| Callback after transition end.|
  
 
 

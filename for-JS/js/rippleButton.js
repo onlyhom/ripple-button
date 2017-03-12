@@ -17,7 +17,7 @@ window.RippleButton = (function() {
 
 	function RippleButton(str, config){
 		this.triggers = this.getTriggers(str);
-		this.callback = config.callback ? config.callback : function(){};
+		this.transitionEnd = config.transitionEnd ? config.transitionEnd : function(){};
 		this.alpha = config.alpha ? config.alpha : '0.5';
 		this.speed = config.speed ? config.speed : '1.1s';
 		this.init(config);
@@ -67,7 +67,7 @@ window.RippleButton = (function() {
 						ripple.addEventListener('transitionend',function(){
 							if(singleton){
 								_this.triggers[i].removeChild(this);
-								_this.callback();
+								_this.transitionEnd();
 								singleton = false;
 							}
 						});
