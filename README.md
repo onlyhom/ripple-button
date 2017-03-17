@@ -5,7 +5,7 @@
 - 原生js版 不依赖任何库
 - JQuery版 使用更轻巧  
 
-##Demo
+# Demo
 
 ![Image text](http://p1.bpimg.com/567571/cfc3893d9214bb6b.gif)
 
@@ -15,13 +15,13 @@
 ## for- Native JS
 
 
-###Installation
+### Installation
 
 ```html
 <script src="js/rippleButton.js" type="text/javascript"></script>
 ```
 
-###Usage
+### Usage
 
 ```html
 <div class="btn">Button</div>
@@ -42,13 +42,13 @@
 ## for- JQuery
 
 
-###Installation
+### Installation
 
 ```html
 <script src="js/jquery.rippleButton.js" type="text/javascript"></script>
 ```
 
-###Usage
+### Usage
 
 ```html
 <div class="btn">Button</div>
@@ -69,12 +69,13 @@
 </script>
 ```
 
-###Options
-|Option|Default| type| Description|
-| ------ |------| -----| -----|
+### Options   
+
+| Option | Default | type | Description |
+| ------ |------| -----| ----- |
 | alpha | 0.5s | string | The transparency alpha of the ripple.|
 | speed | 1.1s | string | The duration which are given in milliseconds of effect.|
-| transitionEnd|function(){}| function| Callback after transition end.|
+| transitionEnd | function(){} | function | Callback after transition end. |
  
 
 
